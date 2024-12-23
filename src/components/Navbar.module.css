@@ -1,0 +1,63 @@
+.navbar{
+    width: 98.9vw;
+    overflow: hidden;
+    height: 30px;
+    transform: translateY(-20px);
+    display: flex;
+    background-color: antiquewhite;
+    position: fixed;
+    justify-content: space-between;
+   left: -0px;
+}
+.search{
+    position: relative;
+    bottom: 20px;
+    width: 30%;
+}
+div div input{
+    height: 33.6px;
+   border: none;
+    border-left: none;
+    position: relative;
+    bottom: -1px;
+    background-color: whitesmoke;
+    border-radius: 0 10px 10px 0;
+}
+div div input:focus{
+    border: none;
+    outline: none;
+}
+.brand{
+    position: relative;
+    left: -100px;
+}
+div div button{
+    height: 36px;
+    position: relative;
+    bottom: -6px;
+    border: none;
+    border-right: none;
+    border-radius: 0;
+    background-color: whitesmoke;
+    border-radius: 10px 0 0 10px;
+}
+div div button:focus{
+    border: none;
+    outline: none;
+}
+.navbar p{
+    color: black;
+    position: relative;
+    padding: 1px;
+    left: -160px;
+    text-align: center;
+    margin: 10px;
+    
+}
+.user{
+    width: 10%;
+    left:-100px;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}

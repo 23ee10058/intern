@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    position: fixed;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+.container p{
+    
+    padding: 10px;
+    margin: 10px;
+}
